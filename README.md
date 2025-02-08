@@ -1,7 +1,7 @@
 # Sample Text Generator
 
 A sample text generator using React + TypeScript </br>
-<i> It is <Strong> Responsive </Strong></i>
+<i> It is <Strong> partially Responsive </Strong></i>
 
 <a href='https://jbernardofortes.github.io/sampleTextGenerator/'>
   Page </br>
