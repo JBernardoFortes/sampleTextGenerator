@@ -8,3 +8,7 @@ A sample text generator using React + TypeScript </br>
   <i>[CTRL + Click ] or [ CMD + Click ] So you wont be redirected</i>
 <img src='https://imgur.com/SrJhcuL.jpg'>
 </a>
+
+API used : </br>
+
+https://hipsum.co/the-api/
