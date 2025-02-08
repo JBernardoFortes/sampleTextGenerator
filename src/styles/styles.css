@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap");
+:root {
+  --oxford-blue: #0b132bff;
+  --space-cadet: #1c2541ff;
+  --yinmn-blue: #3a506bff;
+  --verdigris: #5bc0beff;
+  --fluorescent-cyan: #6fffe9ff;
+  font-family: "Geist Mono";
+}
+
+body {
+  background-color: var(--oxford-blue);
+  color: var(--verdigris);
+}
+body header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  cursor: default;
+  margin: 5vh 0 5vh 0;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+body main .inputContainer span {
+  cursor: default;
+}
+body main .inputContainer input {
+  background-color: var(--space-cadet);
+  color: var(--verdigris);
+  border: 1.3px solid var(--yinmn-blue);
+  text-align: center;
+  width: 3vw;
+  padding: 0.6em;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+body main .inputContainer input:hover {
+  background-color: var(--verdigris);
+  color: var(--oxford-blue);
+}
+body main .inputContainer input::-webkit-outer-spin-button,
+body main .inputContainer input::-webkit-inner-spin-button {
+  display: none;
+}
+body main .inputContainer input:focus {
+  outline: none;
+}
+body main .inputContainer button {
+  background-color: var(--space-cadet);
+  color: var(--verdigris);
+  margin-left: 5vw;
+  padding: 0.5em;
+  border: 1.3px solid var(--verdigris);
+  letter-spacing: 2px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+body main .inputContainer button:hover {
+  background-color: var(--verdigris);
+  color: var(--space-cadet);
+}
+body main .inputContainer .feedback {
+  font-size: 0.8vw;
+  color: var(--fluorescent-cyan);
+  background-color: var(--yinmn-blue);
+  margin-left: 2vw;
+  padding: 0.7em;
+  border: 0.6em;
+  opacity: 0.7;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: absolute;
+  transition: all 0.3 ease;
+}
+body main .text {
+  width: 60vw;
+  padding: 0 5vw 5vw 5vw;
+  font-size: 0.8em;
+  text-align: justify;
+  text-indent: 15px;
+  overflow: scroll;
+  height: 50vh;
+}
+body main .text::-webkit-scrollbar {
+  background-color: var(--oxford-blue);
+  width: 1vw;
+  height: 100%;
+}
+body main .text::-webkit-scrollbar-thumb {
+  background-color: var(--verdigris);
+}/*# sourceMappingURL=styles.css.map */
