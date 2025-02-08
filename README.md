@@ -5,5 +5,6 @@ A sample text generator using React + TypeScript </br>
 
 <a href='https://jbernardofortes.github.io/sampleTextGenerator/'>
   Page - <strong>You will be redirected!</strong>
+  <i>[CTRL + Click ] or [ CMD + Click ] So you wont be redirected</i>
 <img src='https://imgur.com/SrJhcuL.jpg'>
 </a>
